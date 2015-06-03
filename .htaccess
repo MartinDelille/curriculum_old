@@ -1,6 +1,6 @@
 RewriteEngine on
 
-RewriteRule ^en$ /en.html [L]
+RewriteRule ^en$ /en.html
 RewriteRule ^fr$ /fr.html
 
 RewriteCond %{HTTP:Accept-Language} (fr) [NC]
