@@ -1,9 +1,5 @@
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^martindelille.com [NC]
-RewriteRule ^(.*)$ http://www.martindelille.com/$1 [L,R=301]
-
-
 RewriteRule ^en$ /en.html [L]
 RewriteRule ^fr$ /fr.html
 
