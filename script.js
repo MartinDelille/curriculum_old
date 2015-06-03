@@ -1,16 +1,3 @@
-$(document).ready(function(){
-	$('a#en').click(function(event){
-		$('.fr').slideUp("slow");
-		$('.en').slideDown("slow");
-		event.preventDefault();
-	});
-	$('a#fr').click(function(event){
-		$('.en').slideUp("slow");
-		$('.fr').slideDown("slow");
-		event.preventDefault();
-	});
-});
-
 var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-35077843-1']);
 	_gaq.push(['_trackPageview']);
